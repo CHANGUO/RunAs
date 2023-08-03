@@ -1,7 +1,8 @@
 # RunAs
 Cpp实现类似cmd Runas 命令，提升用户身份执行程序。
 # 用法:
-RunAsExe.exe <username> <domain> <password> <"Program">
+命令行
+RunAsExe.exe [username] [domain] [password] ["Program"]
 ### example:
   RunAsExe.exe administrator . xxxx cmd
   
