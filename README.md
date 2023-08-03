@@ -2,8 +2,9 @@
 Cpp实现类似cmd Runas 命令，提升用户身份执行程序。
 # 用法:
 RunAsExe.exe <username> <domain> <password> <"Program">
-### example
+### example:
   RunAsExe.exe administrator . xxxx cmd
+  注意上面 "." 表示本地域名。
 
 # 原理
 调用 CreateProcessWithLogonW函数
